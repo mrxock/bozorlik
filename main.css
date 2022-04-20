@@ -1,0 +1,36 @@
+.center{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  display: block;
+  width: 250px;
+  padding: 8px;
+  font-size: 25px;
+  margin: 8px;
+  border: 1px solid #787878;
+  border-radius: 5px;
+}
+button{
+  display: block;
+  width: 200px;
+  margin: 5px;
+  padding: 8px;
+  margin-left: 25px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: yellowgreen;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+li{
+  font-size: 22px;
+  font-weight: 500;
+}
